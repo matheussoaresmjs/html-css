@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dabela3</title>
+    <title>Tabela3</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            
         }
         table {
             border-collapse: collapse;
+            
         }
         caption {
             font-size: 1.3em;
@@ -24,64 +26,96 @@
             border: 1px solid gray;
             padding: 10px;
         }
+
+        th {
+            text-align: center;
+        }
+
+        .media {
+            background-color: rgba(0, 0, 0, 0.555);
+            color: white;
+        }
+        .media2 {
+            text-align: left;
+        }
+
+        .um {
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Desafio Tabelas</h1>
+    <h1>Toma ai sua tabela</h1>
     <table>
-        <caption>Desafio e mais desafios</caption>
+        <caption>Namoral mano...</caption>
         <thead>
-            <tr>
-                <th rowspan="2" scope="col">Área</th>
-                <th scope="col">Disciplinas</th>
-                <th colspan="3" scope="colgroup">Notas</th>
+            <tr class="media">
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr class="media">
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
             </tr>
         </thead>
+
         <tbody>
             <tr>
-                <th rowspan="3" scope="rowgroup">Mulheres</th>
-                <td>Ana Maria Santos</td>
-                <td>Alien</td>
-                <td>Rambo</td>
-                <td>Vingadores</td>
+                <th rowspan="4" scope="rowgroup">Exatas</th>
+                <td>Matematica</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
-                <td>Beatriz Souza</td>
-                <td>Hulk</td>
-                <td>Inception</td>
-                <td>Batman</td>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
-                <td>Cláudia Melo</td>
-                <td>Oblivion</td>
-                <td>Matrix</td>
-                <td>Big Hero</td>
+                <td>Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
             <tr>
-                <th rowspan="3" scope="rowgroup">Homens</th>
-                <td>Bruno Mendonça</td>
-                <td>Intocáveis</td>
-                <td>Amnésia</td>
-                <td>Gladiador</td>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="media">
+                <th colspan="4" class="media2">Média de Exatas</th>
+                <td class="um">0.0</td>
             </tr>
             <tr>
-                <td>Daniel Lourenço</td>
-                <td>Wall-E</td>
-                <td>Oldboy</td>
-                <td>Dangal</td>
+                <th rowspan="3" scope="rowgroup">Humanas</th>
             </tr>
             <tr>
-                <td>Fabiano Mota</td>
-                <td>Star Wars 5</td>
-                <td>Taxi Driver</td>
-                <td>Toy Story</td>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
             </tr>
+            <tr>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="media">
+                <th colspan="4" class="media2">Média de Humanas</th>
+                <td class="um">0.0</td>
+            </tr>
+
         </tbody>
+
         <tfoot>
-            <tr>
-                <th colspan="4" scope="row">Total</th>
-                <td>1000</td>
-            </tr>
+
         </tfoot>
     </table>
 </body>

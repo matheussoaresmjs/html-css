@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Zerando/definindo Fonte padrão do site */
+    margin: 0px; /* Zerando margem do site */
+    padding: 0px; /* Zerando expansão do site */
+}
+
+body, html {
+    background-color: lightgray; /* Mudando a cor de fund do corpo e do corpo HTML */
+}
+
+header {
+    background-color: gray; /* Mudando a cor de fundo do cabeçalho */
+}
+
+header > h1 {
+    padding: 10px; /* Expandindo o corpo do titulo 1 */
+    text-align: center; /* Centralizando o titulo 1 */
+}
+
+i#burguer {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+i#burguer:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none; /* Flexibilidade para modificação do menu "block" > "none" menu dentro do hamburguinho */
+}
+
+menu > ul {
+    list-style-type: none; /* Removendo estilo de lista */
+}
+
+menu > ul > li > a {
+    display: block; /* Config previa para modificação */
+    padding: 10px; /* Expansão do corpo individual do menu */
+    text-decoration: none; /* Removendo os pontos de lista/menu */
+    text-align: center; /* Centralizando os menus entre as laterais  */
+    background-color: rgb(87, 87, 87); /* Cor de fundo dos menus */
+    color: white; /* Cor da letra do menu */
+    border-top: 2px solid gray; /* Espaçamento entre os menus com coloração */ 
+}
+
+menu > ul > li > a:hover {
+    background-color: gray; /* Cor nos menus ao passar o mouse/cursor */
+}
+
+main {
+    width: 90vw; /* Afastamento do corpo do main nas laterais da tela */ 
+    background-color: white; /* Cor de fundo do main kkk */
+    margin: auto; /* Centralizando um corpo de acordo com as laterais */
+    padding: 10px; /* Espaçamento interno do corpo */
+    margin-top: 10px;
+    border-radius: 10px; /* Arredondamento de borda do corpo */
+
+}
+
+article > h2 {
+    padding-bottom: 20px; /* Afastamento inferior do segundo titulo */
+}
+
+article > p {
+    text-align: justify; /* Alinhamento de texto */
+    margin-bottom: 20px; /* Afastamento inferior do paragrafo/texto */
+    text-indent: 20px; /* Afastamento de paragrafo*/
+}

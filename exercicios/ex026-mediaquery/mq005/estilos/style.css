@@ -58,8 +58,8 @@ main {
     width: 90vw; /* Afastamento do corpo do main nas laterais da tela */ 
     background-color: white; /* Cor de fundo do main kkk */
     margin: auto; /* Centralizando um corpo de acordo com as laterais */
-    padding: 10px; /* Espaçamento interno do corpo */
     margin-top: 10px;
+    padding: 10px; /* Espaçamento interno do corpo */
     border-radius: 10px; /* Arredondamento de borda do corpo */
 
 }
